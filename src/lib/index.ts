@@ -1,12 +1,12 @@
 // place files you want to import through the `$lib` alias in this folder.
 
 export let seo = {
-	title: '',
+	title: 'Quantum NLP Workshop',
 	description:
-		'Svelte Startup Template is a template for building Startup Applications. It is built with SvelteKit, TailwindCSS, and Svelte Animations',
-	image: 'https://i.pinimg.com/736x/85/9a/92/859a92a2629f912010a0a72270aefedc.jpg',
+		'Integrating Quantum Computing with Natural Language Processing',
+	image: 'https://i.postimg.cc/j2zBT5wc/qnlp.png',
 	twitter: 'SEO twitter',
-	url: 'https://startup-sve.vercel.app',
-	keywords: 'svelte, sveltekit, tailwindcss, svelte animations, startup, template'
+	url: 'http://qnlp.in/',
+	keywords: 'Quantum Computing, Natural Language Processing, Quantum NLP, NLP Workshop, Quantum Algorithms, AI and Quantum, Quantum Machine Learning, QNLP, Quantum AI, Researchers, Data Scientists, NLP Engineers, AI Practitioners, Graduate Students, Quantum Developer'
 };
 
