@@ -36,9 +36,9 @@
 
       /* Custom properties */
       --navigation-height: 3.5rem;
-      --color-one: #ffbd7a;
-      --color-two: #fe8bbb;
-      --color-three: #9e7aff;
+      --color-one: #ffffff;
+      --color-two: #d0d0d0;
+      --color-three: #9c9c9c;
 
       /*
     --color-one: #37ecba;
@@ -78,9 +78,9 @@
 
          /* Custom properties */
          --navigation-height: 3.5rem;
-         --color-one: #ffbd7a;
-         --color-two: #fe8bbb;
-         --color-three: #9e7aff;
+         --color-one: #ffffff;
+         --color-two: #d0d0d0;
+         --color-three: #9c9c9c;
    }
 }
 

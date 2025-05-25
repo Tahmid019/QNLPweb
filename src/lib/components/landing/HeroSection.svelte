@@ -1,5 +1,5 @@
 <script lang="ts">
-	import cube_gif from '$lib/imgs/gif/cube1.gif';
+	import cube_gif from '$lib/imgs/gif/cube4.gif';
 </script>
 
 <section id="hero" class="relative mx-auto mt-32 max-w-7xl px-6 text-center md:px-8">
