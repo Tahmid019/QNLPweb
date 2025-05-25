@@ -1,9 +1,9 @@
 <script lang="ts">
-	import cube_gif from '$lib/imgs/gif/cube4.gif';
+	import cube_gif from '$lib/imgs/gif/cube5.gif';
 </script>
 
 <section id="hero" class="relative mx-auto mt-32 max-w-7xl px-6 text-center md:px-8">
-	<div class="hero-container relative flex flex-col-reverse lg:flex-row">
+	<div class="hero-container relative flex flex-col-reverse lg:flex-row xl:-translate-x-16">
 		<div class="left-container relative lg:w-[70%]">
 			<h1
 				class="-translate-y-4 animate-fade-in text-balance lg:text-right bg-gradient-to-br from-black from-30% to-black/40 bg-clip-text pt-6 text-5xl font-semibold leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-white dark:to-white/40 sm:text-6xl md:text-7xl lg:text-8xl"
@@ -24,7 +24,7 @@
 				Under 14th <a href="https://www.afnlp.org/conferences/ijcnlp2025/" class="underline underline-offset-2">IJCNLP-AACL</a> 2025 Workshop Mumbai, India
 			</p>
 		</div>
-		<div class="right-container relative lg:w-[30%] self-center">
+		<div class="right-container relative lg:w-[30%] self-center max-w-96">
 			<img src={cube_gif} alt="cube_gif">
 		</div>
 	</div>
