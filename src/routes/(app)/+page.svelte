@@ -36,10 +36,10 @@
 <HeroSection />
 <MotivationSection />
 <WorkshopGoals />
+<CallForPapers />
 <Organizers />
 <Comittee />
 <Speakers />
 <Developers />
-<CallForPapers />
 <Summary />
 <SphereMask />

@@ -19,7 +19,7 @@
 				class="mb-12 -translate-y-4 animate-fade-in text-balance font-poppins lg:text-right text-lg tracking-tight text-gray-400 opacity-0 [--animation-delay:400ms] md:text-xl"
 			>
 				
-				Under 14th <a href="https://www.afnlp.org/conferences/ijcnlp2025/" class="underline underline-offset-2">IJCNLP-AACL</a> 2025 Workshop Mumbai, India
+				Under 14th <a href="https://www.afnlp.org/conferences/ijcnlp2025/" class="underline underline-offset-2">IJCNLP-AACL</a> 2025 Workshop Mumbai, India.<br> Tentative date: Dec 23-24, 2025
 			</p>
 		</div>
 		<div class="right-container relative lg:w-[30%] self-center max-w-96">
