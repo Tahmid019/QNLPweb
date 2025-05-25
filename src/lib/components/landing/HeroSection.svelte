@@ -2,7 +2,7 @@
 	import cube_gif from '$lib/imgs/gif/cube5.gif';
 </script>
 
-<section id="hero" class="relative z-30 mx-auto mt-32 max-w-7xl px-6 text-center md:px-8">
+<section id="hero" class="relative z-30 mx-auto mt-14 md:mt-24 lg:mt-32 max-w-7xl px-6 text-center md:px-8">
 	<div class="hero-container relative flex flex-col-reverse lg:flex-row xl:-translate-x-16">
 		<div class="left-container relative lg:w-[70%]">
 			<h1

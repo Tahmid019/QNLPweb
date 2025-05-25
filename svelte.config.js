@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -7,9 +7,15 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			// You can specify a Node.js version here if needed:
-			runtime: 'nodejs20.x'
-		})
+			pages: 'build',
+			assets: 'build',
+			fallback: 'index.html', // good for single-page apps
+			precompress: false
+		}),
+		paths: {
+			base: '',
+			assets: ''
+		}
 	}
 };
 
