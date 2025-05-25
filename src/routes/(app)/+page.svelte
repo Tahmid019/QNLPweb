@@ -2,6 +2,7 @@
 	import { seo } from '$lib';
 	import HeroSection from '$lib/components/landing/HeroSection.svelte';
 	import MotivationSection from '$lib/components/landing/MotivationSection.svelte';
+	import WorkshopGoals from '$lib/components/landing/WorkshopGoals.svelte';
 	import SphereMask from '$lib/components/magic/SphereMask/SphereMask.svelte';
 
 </script>
@@ -28,4 +29,5 @@
 
 <HeroSection />
 <MotivationSection />
+<WorkshopGoals />
 <SphereMask />
