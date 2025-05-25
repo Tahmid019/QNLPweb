@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { seo } from '$lib';
 	import HeroSection from '$lib/components/landing/HeroSection.svelte';
 	import SphereMask from '$lib/components/magic/SphereMask/SphereMask.svelte';
