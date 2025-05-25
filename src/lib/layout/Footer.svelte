@@ -9,11 +9,11 @@
 					name: 'Email Collection'
 				},
 				{
-					href: '/pricing',
-					name: 'Pricing'
+					href: '/',
+					name: 'Features'
 				},
 				{
-					href: '/faq',
+					href: '/',
 					name: 'FAQ'
 				}
 			]
@@ -24,28 +24,28 @@
 			items: [
 				{
 					href: '/',
-					name: 'Discord'
+					name: 'Organizers'
+				},
+				{
+					href: 'mailto:tahmidchoudhury019@gmail.com',
+					name: 'Email'
 				},
 				{
 					href: '/',
-					name: 'Twitter'
+					name: 'Developers'
 				},
-				{
-					href: 'mailto:hello@chatcollect.com',
-					name: 'Email'
-				}
 			]
 		},
 		{
 			label: 'Legal',
 			items: [
 				{
-					href: '/terms',
+					href: '/',
 					name: 'Terms'
 				},
 
 				{
-					href: '/privacy',
+					href: '/',
 					name: 'Privacy'
 				}
 			]
@@ -54,12 +54,12 @@
 
 	const footerSocials = [
 		{
-			href: '',
+			href: '/',
 			name: 'Discord',
 			icon: ''
 		},
 		{
-			href: '',
+			href: '/',
 			name: 'Twitter',
 			icon: ''
 		}
@@ -86,11 +86,11 @@
 							d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5"
 						/><path d="M9 3v7" /><path d="M21 10h-7" /><path d="M3 15h9" /></svg
 					>
-					<span class="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-						Svee UI
+					<span class="self-center whitespace-nowrap text-2xl font-extrabold dark:text-white">
+						QNLP
 					</span>
 				</a>
-				<p class="max-w-xs">UI Library for Design Engineers</p>
+				<p class="max-w-xs">QuantumNLP Workshop</p>
 			</div>
 			<div class="grid grid-cols-1 gap-8 sm:grid-cols-3 sm:gap-10">
 				{#each footerNavs as nav}
