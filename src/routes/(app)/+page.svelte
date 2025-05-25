@@ -22,6 +22,8 @@
 	<meta name="twitter:description" content={seo.description} />
 	<meta name="twitter:image" content={seo.image} />
 	<meta name="twitter:site" content="@tahmid019" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 </svelte:head>
 
 <HeroSection />
