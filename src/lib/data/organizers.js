@@ -2,27 +2,27 @@ const organizers = [
   {
     title: 'Dr. Partha Pakray',
     description: 'NIT Silchar',
-    link: '/'
+    link: ''
   },
   {
     title: 'Dr. Priyanka Jain',
     description: 'CDAC, Delhi',
-    link: '/'
+    link: ''
   },
   {
     title: 'Dr. Asif Ekbal',
     description: 'IIT Jodhpur',
-    link: '/'
+    link: ''
   },
   {
     title: 'Dr. Santanu Pal',
     description: 'Wipro AI Lab 45',
-    link: '/'
+    link: ''
   },
   {
     title: 'Prof. Sivaji Bandyopadhyay',
     description: 'Jadavpur University',
-    link: '/'
+    link: ''
   }
 ];
 

@@ -2,37 +2,37 @@ const committee = [
   {
     title: 'Prof. David Pinto',
     description: 'BUAP Puebla, Mexico',
-    link: '/'
+    link: ''
   },
   {
     title: 'Prof. Grigori Sidorov',
     description: 'National Polytechnic Institute, Mexico',
-    link: '/'
+    link: ''
   },
   {
     title: 'Prof. Alexander Gelbukh',
     description: 'National Polytechnic Institute, Mexico',
-    link: '/'
+    link: ''
   },
   {
     title: 'Dr. Anupam Jamatia',
     description: 'NIT Agartala',
-    link: '/'
+    link: ''
   },
   {
     title: 'Dr. Riyanka Manna',
     description: 'Amrita Vishwa Vidyapeetham',
-    link: '/'
+    link: ''
   },
   {
     title: 'Mr. Shyambabu Pandey',
     description: 'National Institute of Technology Silchar',
-    link: '/'
+    link: ''
   },
   {
     title: 'Dr. Sandeep Kumar Dash',
     description: 'National Institute of Technology Mizoram',
-    link: '/'
+    link: ''
   },
   {
     title: 'Dr. Riyanka Manna',

@@ -5,15 +5,15 @@
 			label: 'Product',
 			items: [
 				{
-					href: '/',
+					href: '',
 					name: 'Email Collection'
 				},
 				{
-					href: '/',
+					href: '',
 					name: 'Features'
 				},
 				{
-					href: '/',
+					href: '',
 					name: 'FAQ'
 				}
 			]
@@ -23,15 +23,15 @@
 			label: 'Community',
 			items: [
 				{
-					href: '/',
+					href: '',
 					name: 'Organizers'
 				},
 				{
-					href: 'mailto:tahmidchoudhury019@gmail.com',
+					href: 'partha@cse.nits.ac.in',
 					name: 'Email'
 				},
 				{
-					href: '/',
+					href: '',
 					name: 'Developers'
 				},
 			]
@@ -40,12 +40,12 @@
 			label: 'Legal',
 			items: [
 				{
-					href: '/',
+					href: '',
 					name: 'Terms'
 				},
 
 				{
-					href: '/',
+					href: '',
 					name: 'Privacy'
 				}
 			]
@@ -54,12 +54,12 @@
 
 	const footerSocials = [
 		{
-			href: '/',
+			href: '',
 			name: 'Discord',
 			icon: ''
 		},
 		{
-			href: '/',
+			href: '',
 			name: 'Twitter',
 			icon: ''
 		}
