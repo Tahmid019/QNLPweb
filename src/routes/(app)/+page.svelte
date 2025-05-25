@@ -1,7 +1,13 @@
 <script lang="ts">
 	import { seo } from '$lib';
+	import CallForPapers from '$lib/components/landing/CallForPapers.svelte';
+	import Comittee from '$lib/components/landing/Comittee.svelte';
+	import Developers from '$lib/components/landing/Developers.svelte';
 	import HeroSection from '$lib/components/landing/HeroSection.svelte';
 	import MotivationSection from '$lib/components/landing/MotivationSection.svelte';
+	import Organizers from '$lib/components/landing/Organizers.svelte';
+	import Speakers from '$lib/components/landing/Speakers.svelte';
+	import Summary from '$lib/components/landing/Summary.svelte';
 	import WorkshopGoals from '$lib/components/landing/WorkshopGoals.svelte';
 	import SphereMask from '$lib/components/magic/SphereMask/SphereMask.svelte';
 
@@ -30,4 +36,10 @@
 <HeroSection />
 <MotivationSection />
 <WorkshopGoals />
+<Organizers />
+<Comittee />
+<Speakers />
+<Developers />
+<CallForPapers />
+<Summary />
 <SphereMask />
