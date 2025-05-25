@@ -9,7 +9,7 @@
   >
     {summaryData.title}
   </span>
-    <p class="text-justify text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.2rem] pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-white to-gray-300/80 bg-clip-text font-medium font-poppins leading-none text-transparent ">
+    <p class="text-justify text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.2rem] pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-white to-gray-300/80 bg-clip-text font-medium font-poppins leading-none text-transparent pt-3">
     {summaryData.content}
   </p>
 </div>

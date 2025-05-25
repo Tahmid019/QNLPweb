@@ -6,7 +6,7 @@
 </script>
 
 
-<section id="hero" class="relative mx-auto mt-20 max-w-7xl sm:px-6 text-center md:px-8">
+<section id="workshop" class="relative mx-auto mt-20 max-w-7xl sm:px-6 text-center md:px-8">
     <div class="container flex flex-col lg:flex-row">
         <div class="cont-a lg:w-[50%] pb-3 lg:pb-0 lg:pr-3">
             <CloseCard title="Workshop Goals" text={WorkshopGoals_text}/>

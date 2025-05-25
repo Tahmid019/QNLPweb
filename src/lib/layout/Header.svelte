@@ -1,12 +1,15 @@
 <script lang="ts">
+    import { onMount } from 'svelte';
+
   import { cn } from '$lib/utils';
   import { AlignJustify, XIcon } from 'lucide-svelte';
   import { fly, fade } from 'svelte/transition';
 
   const menuItem = [
-    { id: 1, label: 'About', href: '#' },
-    { id: 2, label: 'Timeline', href: '#' },
-    { id: 3, label: 'Organizers', href: '#' },
+    {id: 1, label: '', href: '/'},
+    { id: 2, label: 'Motivation', href: '/' },
+    { id: 3, label: 'Call For Papers', href: '/' },
+    { id: 4, label: 'Organizers', href: '/' },
   ];
 
   let hamburgerMenuIsOpen = false;
@@ -14,13 +17,42 @@
   function toggleOverflowHidden(node: HTMLElement) {
     node.addEventListener('click', () => {
       hamburgerMenuIsOpen = !hamburgerMenuIsOpen;
-      const html = document.querySelector('html');
-      if (html) {
-        html.classList.toggle('overflow-hidden', hamburgerMenuIsOpen);
-      }
+      updateOverflowHidden();
     });
   }
 
+  function updateOverflowHidden() {
+    const html = document.querySelector('html');
+    if (html) {
+      html.classList.toggle('overflow-hidden', hamburgerMenuIsOpen);
+    }
+  }
+
+  // Close menu and remove overflow-hidden when hash changes
+  function handleHashChange() {
+    hamburgerMenuIsOpen = false;
+    updateOverflowHidden();
+  }
+
+  // Add hash change listener
+ onMount(() => {
+    // Enable smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', (e: Event) => {
+        e.preventDefault();
+        const target = e.currentTarget as HTMLAnchorElement;
+        const href = target.getAttribute('href');
+        if (href) {
+          const el = document.querySelector(href);
+          if (el) {
+            el.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        }
+      });
+    });
+  });
   let innerWidth = 0;
 </script>
 
@@ -41,7 +73,16 @@
         <ul class="flex space-x-6 uppercase">
           {#each menuItem as item}
             <li>
-              <a class="text-sm hover:text-gray-700 transition-colors" href={item.href}>
+              <a 
+                href={item.href}
+                on:click|preventDefault={(e) => {
+                  hamburgerMenuIsOpen = false;
+                  const el = document.querySelector(item.href);
+                  if (el) {
+                    el.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+              >
                 {item.label}
               </a>
             </li>
@@ -77,7 +118,14 @@
     <ul in:fly={{ y: -30, duration: 400 }} class="flex flex-col uppercase space-y-4 pt-16 pl-6">
       {#each menuItem as item}
         <li>
-          <a class="text-xl hover:text-gray-700 transition-colors" href={item.href}>
+          <a 
+            class="text-xl hover:text-gray-700 transition-colors" 
+            href={item.href}
+            on:click={() => {
+              hamburgerMenuIsOpen = false;
+              updateOverflowHidden();
+            }}
+          >
             {item.label}
           </a>
         </li>
