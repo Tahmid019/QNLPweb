@@ -20,7 +20,7 @@
         aria-expanded={isOpen}
         aria-controls="card-content"
     >
-        <h3 class="text-lg text-center font-semibold font-poppins text-white">{title}</h3>
+        <h3 class="text-sm md:text-lg xl:text-xl text-center font-semibold font-poppins text-white">{title}</h3>
         {#if subtitle}
             <p class="text-sm text-center font-poppins text-gray-400 mt-1">{subtitle}</p>
         {/if}
@@ -28,9 +28,9 @@
             <div
                 id="card-content"
                 transition:slide
-                class="px-4 py-3 border-t border-gray-700"
+                class="lg:px-4 py-2 lg:py-3 border-t border-gray-700"
             >
-                <p class="text-gray-400 leading-relaxed">{text}</p>
+                <p class="text-gray-400 text-justify text-[0.5rem] md:text-[0.6rem] lg:text-[0.8rem] xl:text-[1rem] leading-relaxed">{text}</p>
             </div>
         {/if}
     </button>
