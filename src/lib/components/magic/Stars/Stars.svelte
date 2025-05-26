@@ -61,14 +61,14 @@
     return {
       x: Math.random() * canvasSize.w,
       y: Math.random() * canvasSize.h,
-      translateX: 0,
-      translateY: 0,
+      translateX: -10,
+      translateY: 10,
       size: size * (1 - sizeVariation + Math.random() * 2 * sizeVariation),
       alpha: 0,
-      targetAlpha: Math.random() * 0.6 + 0.1,
+      targetAlpha: Math.random() * 0.6 + 1,
       dx: (Math.random() - 0.5) * 0.1,
       dy: (Math.random() - 0.5) * 0.1,
-      magnetism: 0.1 + Math.random() * 4
+      magnetism: 0.1 + Math.random() * 0.8
     };
   }
 
