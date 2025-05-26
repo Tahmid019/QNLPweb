@@ -39,6 +39,11 @@
       --color-one: #ffffff;
       --color-two: #d0d0d0;
       --color-three: #9c9c9c;
+      --black-0: #000000;
+      --black-4: #444444;
+      --black-9: #999999;
+      --while-0: #ffffff;
+      --while-4: #bbbbbb;
 
       /*
     --color-one: #37ecba;
@@ -46,7 +51,7 @@
     --color-three: #ff2e63;
      */
    }
-
+   /*
    .dark {
       --background: 0 0% 0%;
       --foreground: 0 0% 98%;
@@ -76,12 +81,17 @@
       --input: 0 0% 14.9%;
       --ring: 0 0% 83.1%;
 
-         /* Custom properties */
          --navigation-height: 3.5rem;
          --color-one: #ffffff;
          --color-two: #d0d0d0;
          --color-three: #9c9c9c;
+         --black-0: #000000;
+         --black-4: #444444;
+         --black-9: #999999;
+         --while-0: #ffffff;
+         --while-4: #bbbbbb;
    }
+   */
 }
 
 @layer base {
