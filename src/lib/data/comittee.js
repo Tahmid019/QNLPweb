@@ -34,21 +34,6 @@ const committee = [
     description: 'National Institute of Technology Mizoram',
     link: ''
   },
-  {
-    title: 'Dr. Riyanka Manna',
-    description: 'Amrita Vishwa Vidyapeetham',
-    link: '/'
-  },
-  {
-    title: 'Dr. Riyanka Manna',
-    description: 'Amrita Vishwa Vidyapeetham',
-    link: '/'
-  },
-  {
-    title: 'Dr. Riyanka Manna',
-    description: 'Amrita Vishwa Vidyapeetham',
-    link: '/'
-  }
 ];
 
 export default committee;
