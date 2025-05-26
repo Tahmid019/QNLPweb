@@ -128,9 +128,9 @@
     <button class="md:hidden z-50 relative" use:toggleOverflowHidden>
       <span class="sr-only">Toggle menu</span>
       {#if hamburgerMenuIsOpen}
-        <XIcon on:click={() => hamburgerMenuIsOpen = false} strokeWidth={1.4} class="text-gray-300" />
+        <XIcon strokeWidth={1.4} class="text-gray-300" />
       {:else}
-        <AlignJustify on:click={() => hamburgerMenuIsOpen = true} strokeWidth={1.4} class="text-gray-300" />
+        <AlignJustify  strokeWidth={1.4} class="text-gray-300" />
       {/if}
     </button>
   </div>
@@ -153,10 +153,13 @@
         <li>
           <a 
             class="text-xl hover:text-gray-700 transition-colors" 
-            href={item.href}
-            on:click={() => {
+            href="/"
+            on:click={(event) => {
               hamburgerMenuIsOpen = false;
               updateOverflowHidden();
+              event.preventDefault();
+              handleLinkClick();
+              scrollToSection(event, item.id);
             }}
           >
             {item.label}
@@ -166,3 +169,10 @@
     </ul>
   {/if}
 </nav>
+
+
+on:click={(event) => {
+                  event.preventDefault();
+                  handleLinkClick();
+                  scrollToSection(event, item.id);
+                }}
