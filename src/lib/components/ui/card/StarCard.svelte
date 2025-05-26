@@ -15,5 +15,5 @@
   <p class="text-justify text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.2rem] pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[var(--black-0)] to-[var(--black-4)] bg-clip-text font-medium font-poppins leading-none text-transparent">
     {motivation_text}
   </p>
-  <Particles className="absolute inset-0" quantity={350} color={"000000"} size=1.2 />
+  <Particles className="absolute inset-0" quantity={350} color={"000000"} size=0.6  />
 </div>

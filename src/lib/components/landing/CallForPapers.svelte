@@ -23,6 +23,6 @@
     {/each}
   </ul>
   <p class="text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.2rem] font-poppins bg-gradient-to-b from-[var(--black-4)] to-[var(--black-9)] bg-clip-text text-transparent italic mt-3">{callForPapers.note}</p>
-  <Particles className="absolute inset-0" quantity={350} color={"000000"} size=1.2 />
+  <Particles className="absolute inset-0" quantity={350} color={"000000"} size=0.6 />
 </div>
 </section>
