@@ -11,7 +11,7 @@
 				QuantumNLP
 			</h1>
 			<h2
-				class="-translate-y-4 animate-fade-in text-balance font-poppins lg:text-right bg-gradient-to-br from-[var(--white-0)] from-30% to-[var(--white-0)]/40 bg-clip-text pb-6 pt-2 text-2xl font-medium leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-[var(--black-0)] dark:to-[var(--black-4)] sm:text-3xl md:text-4xl lg:text-5xl"
+				class="-translate-y-4 animate-fade-in text-balance font-poppins lg:text-right bg-gradient-to-br from-[var(--white-0)] from-30% to-[var(--white-0)]/40 bg-clip-text pb-6 pt-2 text-2xl font-medium leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-red-500 dark:to-red-300 sm:text-3xl md:text-4xl lg:text-5xl"
 			>
 				Integrating Quantum Computing with Natural Language Processing
 			</h2>
