@@ -15,5 +15,43 @@ export const callForPapers = {
     'Fault-Tolerant Quantum Algorithms for NLP Tasks'
   ],
 
-  note: `Selected papers will be peer reviewed and considered for presentation and possible inclusion in the conference proceedings.`
+  note: `Selected papers will be peer reviewed and considered for presentation and possible inclusion in the conference proceedings.`,
+
+  timeline : [
+  {
+    event: "First Call for Papers",
+    date: "July 22, 2025"
+  },
+  {
+    event: "Second Call for Papers",
+    date: "August 22, 2025"
+  },
+  {
+    event: "Third Call for Papers",
+    date: "September 22, 2025"
+  },
+  {
+    event: "Paper Submission Deadline",
+    date: "September 29, 2025"
+  },
+  {
+    event: "ARR Commitment Deadline",
+    date: "October 27, 2025"
+  },
+  {
+    event: "Notification of Acceptance",
+    date: "November 3, 2025"
+  },
+  {
+    event: "Camera-Ready Papers Due",
+    date: "November 11, 2025"
+  },
+  {
+    event: "Proceedings Due",
+    date: "December 1, 2025"
+  }
+]
+
+
 };
+

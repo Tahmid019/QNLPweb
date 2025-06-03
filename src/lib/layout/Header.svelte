@@ -169,10 +169,3 @@
     </ul>
   {/if}
 </nav>
-
-
-on:click={(event) => {
-                  event.preventDefault();
-                  handleLinkClick();
-                  scrollToSection(event, item.id);
-                }}
