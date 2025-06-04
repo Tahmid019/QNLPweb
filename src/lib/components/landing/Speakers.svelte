@@ -10,7 +10,7 @@
         <div class="flex justify-center items-center">
             <div class="grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {#each speakers as profile}
-                    <ProfBar name={profile.title} designation={profile.description} link={profile.link} />
+                    <ProfBar name={profile.title} designation={profile.description} link={profile.link} profImg={profile.progImage} />
                 {/each}
             </div>
         </div>
