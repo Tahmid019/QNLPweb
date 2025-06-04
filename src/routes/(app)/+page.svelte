@@ -4,6 +4,7 @@
 	import Comittee from '$lib/components/landing/Comittee.svelte';
 	import Developers from '$lib/components/landing/Developers.svelte';
 	import HeroSection from '$lib/components/landing/HeroSection.svelte';
+	import ImportantTimes from '$lib/components/landing/ImportantTimes.svelte';
 	import MotivationSection from '$lib/components/landing/MotivationSection.svelte';
 	import Organizers from '$lib/components/landing/Organizers.svelte';
 	import Speakers from '$lib/components/landing/Speakers.svelte';
@@ -37,6 +38,7 @@
 <MotivationSection />
 <WorkshopGoals />
 <CallForPapers />
+<ImportantTimes />
 <Organizers />
 <Comittee />
 <Speakers />
