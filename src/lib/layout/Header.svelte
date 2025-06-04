@@ -11,9 +11,9 @@
     { id: 'motivation', label: 'Motivation', href: '/' },
     { id: 'callForPapers', label: 'Call For Papers', href: '/' },
     { id: 'organizers', label: 'Organizers', href: '/' },
-    { id: 'comittee', label: 'TPCMs', href: '/' },
+    { id: 'comittee', label: 'TPC', href: '/' },
     { id: 'speakers', label: 'Speakers', href: '/' },
-    { id: 'developers', label: 'Developers', href: '/' },
+    { id: 'importantTimes', label: 'Timeline', href: '/' },
   ];
 
   let hamburgerMenuIsOpen = false;
