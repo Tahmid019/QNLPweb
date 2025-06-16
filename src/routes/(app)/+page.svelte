@@ -11,6 +11,7 @@
 	import Summary from '$lib/components/landing/Summary.svelte';
 	import WorkshopGoals from '$lib/components/landing/WorkshopGoals.svelte';
 	import SphereMask from '$lib/components/magic/SphereMask/SphereMask.svelte';
+	import Submission from '$lib/components/landing/Submission.svelte';
 
 </script>
 
@@ -39,6 +40,7 @@
 <WorkshopGoals />
 <CallForPapers />
 <ImportantTimes />
+<Submission />
 <Organizers />
 <Comittee />
 <Speakers />
