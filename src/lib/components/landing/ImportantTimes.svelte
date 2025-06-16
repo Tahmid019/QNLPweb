@@ -4,34 +4,41 @@
 
 </script>
 <section id="importantTimes" class="relative mx-auto mt-28 max-w-7xl px-6 text-center md:px-8">
+  <div
+  class="relative flex p-4 text-center md:p-6 lg:p-8 flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+>
     <span
     class="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold font-poppins leading-none text-transparent dark:from-[var(--black-0)] dark:to-[var(--black-9)] pb-3 xl:pb-5"
   >
     Important Dates
   </span>
 
-  <ul class="pl-2 md:pl-32 lg:pl-52 xl:pl-72 text-left pt-3 text-[0.55rem] md:text-[0.85rem] lg:text-[1.05rem] xl:text-[1.25rem] font-poppins">
-    {#each callForPapers.timeline as topic}
-      <li class=" bg-gradient-to-b from-[var(--black-0)] to-[var(--black-4)] bg-clip-text text-transparent">• {topic.event} --- {topic.date}</li>
-      {/each}
-  </ul>
+  <ul class="mt-8 w-full flex flex-col items-center space-y-6 ">
+    {#each callForPapers.timeline as { event, date }, idx}
+      <li class="flex items-start space-x-4 w-full max-w-xl bg-red-50 rounded-lg p-3 shadow-lg ">
+        <!-- Dot indicator -->
+        <div class="relative mt-1 flex flex-col items-center">
+          <span
+            class="block h-3 w-3 rounded-full bg-red-500 "
+          />
+        
+        </div>
 
-    <!-- <div class="group timeline flex flex-col justify-start self-start w-full">
-    {#each callForPapers.timeline as ev }
-    <div class="timeline-cont flex flex-row m-1 md:m-2 lg:m-3 bg-slate-600/10 border rounded-lg ">
-      <div class="eve-cont w-[65%] flex justify-start p-1">
-        <span
-        class="self-center pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-start md:text-xl lg:text-3xl xl:text-4xl font-semibold font-poppins leading-none text-transparent dark:from-[var(--black-0)] dark:to-[var(--black-9)] "
-        >
-        {ev.event}
-      </span>
-    </div>
-    <div class="eve-dat flex justify-start self-center w-[35%] p-1">
-      <p class="text-left text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.2rem] pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[var(--black-0)] to-[var(--black-4)] bg-clip-text font-medium font-poppins leading-none text-transparent">
-        {ev.date}
-      </p>
-    </div>
-  </div>
-  {/each}
-</div> -->
+        <!-- Event content -->
+        <div class="flex-1 text-left ">
+            <p class="font-semibold text-lg text-gray-800 flex items-center gap-3">
+            {event}
+            <time
+              class="inline-block rounded-full bg-gradient-to-tr from-red-500 to-red-300 px-3 py-1 text-sm font-medium text-white ml-3"
+              datetime={date}
+            >
+              {date}
+            </time>
+            </p>
+        </div>
+      </li>
+    {/each}
+  </ul>
+  <Particles className="absolute inset-0" quantity={350} color={"000000"} size=0.6 />
+</div>
 </section>
