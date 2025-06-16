@@ -2,8 +2,8 @@
 
 ## Install Node Js
 ### Windows
-1. Goto NodeJS website
-2. get the .exe installer
+1. Goto NodeJS website: [NodeJS/Download](https://nodejs.org/en/download/)
+2. Download the .exe installer
 3. run it (double click)
 4. After Installation Finished, re-run all terminal (close them and reopen)
 5. Verify node Installations (run this in command prompt):
