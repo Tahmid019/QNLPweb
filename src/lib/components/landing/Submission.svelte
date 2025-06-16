@@ -13,11 +13,18 @@
     Paper Submission
   </span>
 
-  <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/QuantumNLP#tab-your-consoles">
-    <p class="text-center text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.2rem] pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-[var(--black-0)] to-[var(--black-4)] bg-clip-text font-medium font-poppins leading-none text-transparent">
-    Open Review | Please Login First & then click on the Link {"[ Click Here ] "}
-  </p>
-  </a>
+  <div class="container-submission w-auto h-auto bg-red-100 p-3 rounded-lg shadow-lg ">
+
+    <p class="text-center text-[0.5rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.2rem] bg-gradient-to-b from-[var(--black-0)] to-[var(--black-4)] bg-clip-text font-medium font-poppins leading-none text-transparent">
+      Open Review | Please Login First & then click on the Link
+      <a
+        href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/QuantumNLP#tab-your-consoles"
+        class="underline text-blue-600 hover:text-blue-800"
+        style="pointer-events: auto;"
+        >Click Here</a
+      >
+    </p>
+  </div>
   <Particles className="absolute inset-0" quantity={350} color={"000000"} size=0.6 />
   </div>
 </section>
