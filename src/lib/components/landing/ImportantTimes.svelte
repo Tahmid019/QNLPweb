@@ -29,7 +29,8 @@
             <p class="font-semibold text-lg text-gray-800 flex items-center gap-3">
             {event}
             <time
-              class="inline-block rounded-full bg-gradient-to-tr from-red-500 to-red-300 px-3 py-1 text-sm font-medium text-white ml-3"
+              class="inline-block rounded-full bg-gradient-to-tr from-red-500 to-red-300 px-3 py-1 text-sm font-medium text-white decoration-2 ml-3"
+              class:line-through={date === "September 29, 2025"}
               datetime={date}
             >
               {date}

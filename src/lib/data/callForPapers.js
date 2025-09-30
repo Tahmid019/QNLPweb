@@ -35,6 +35,10 @@ export const callForPapers = {
     date: "September 29, 2025"
   },
   {
+    event: "Extended Paper Submission Deadline",
+    date: "October 15, 2025"
+  },
+  {
     event: "ARR Commitment Deadline",
     date: "October 27, 2025"
   },
